@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+<title>{dede:field.seotitle/}_北京艺美医疗美容医院</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link rel="stylesheet" href="/templets/houtai/css/list.css" />
+<link href="/cdn/aos.css" rel="stylesheet">
+<script src="/cdn/jquery.min.js"></script>
+<script src="/cdn/aos.js"></script>
+
+<body>
+	<header>
+		{dede:include filename='head.htm'/}
+    </header>
+	<section>
+		<ul class="list">
+			{dede:list pagesize='5'}
+			<li>
+				<div class="list_tit">
+					<a href="[field:arcurl/]" target="_blank">
+						<em></em>
+						<h2>[field:title/]</h2>
+					</a>
+				</div>
+				<div class="list_con">
+					<p>[field:description function='cn_substr(Html2text("@me")."...",160)'/]……</p>
+					<a href="[field:arcurl/]" target="_blank"><span>详 情</span><i></i></a>
+				</div>
+			</li>
+			{/dede:list}
+		</ul>
+		<ul class="list_fy">
+            {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+        </ul>
+	</section>
+    {dede:include filename='foot.htm'/}
+</body>
+</html>

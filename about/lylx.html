@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+<title>来院路线</title>
+<script src="/js/flexible.js"></script>
+<link rel="stylesheet" href="/about/css/dy.css" />
+<link href="/cdn/aos.css" rel="stylesheet">
+<script src="/cdn/jquery.min.js"></script>
+<script src="/cdn/aos.js"></script>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=9aGSlTvCGtHZENNt2Xi2iGf54n9PwfUw"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js" charset="UTF-8"></script>
+<link href="/about/css/dt.css" type="text/css" rel="stylesheet"/>
+<body>
+	<header>
+		<script type="text/javascript" src="/commonJs/header.js"></script>
+   		<div class="lx_ban"></div>
+    </header>
+	<section>
+		<div class="lx_part1">
+			<p class="lx_con">为了保证更好为您的美丽订制服务，</p>
+			<h2 class="wy_tit"><em>我院为预约制接待。</em></h2>
+			<p class="lx_con">请您来院前与在线医生联系，</p>
+			<h2 class="wy_tit"><em>确定来院日期及时间。</em></h2>
+			<a href="tel:4006658909" target="_blank">预约热线：400-665-8909</a>
+		</div>
+	</section>
+    <section>
+    	<div class="lx_part2">
+    		<div id="allmap"> </div>
+    	</div>
+    	<style type="text/css">
+	body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+	#allmap {height: 300px;width:100%;overflow: hidden;}
+	#result {width:100%;font-size:1.4rem;}
+	dl,dt,dd,ul,li{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	dt{
+		font-size:1.4rem;
+		font-family:"微软雅黑";
+		font-weight:bold;
+		border-bottom:1px dotted #000;
+		padding:5px 0 5px 5px;
+		margin:5px 0;
+	}
+	dd{
+		padding:5px 0 0 5px;
+	}
+	li{
+		line-height:28px;
+	}
+	#BMapLib_transBox0 td{ font-size:10px;}
+	.BMapLib_SearchInfoWindow .BMapLib_nav input{font-size:10px;}
+	.BMapLib_SearchInfoWindow0{ display:block;}
+	</style>
+    </section>
+    <section>
+    	<div class="lx_part3">
+    		<div class="lx_fa clearfix">
+    			<ul class="clearfix">
+    				<li>
+    					<i></i>
+    					<div class="lx_fa1">
+    						<em></em>
+    						<p>医院地址：北京市朝阳区东三环北路55号世
+茂宫园二号楼一层（北京康莱德酒店对面）</p>
+    					</div>
+    				</li>
+    				<li>
+    					<i></i>
+    					<div class="lx_fa1">
+    						<em></em>
+    						<p>乘坐75、650、126、快速公交2线、快速
+公交2线区间、夜6、专111路，在东大桥
+站下车</p>
+    					</div>
+    				</li>
+    				<li>
+    					<i></i>
+    					<div class="lx_fa1">
+    						<em></em>
+    						<p>北京地铁6号/10号线，呼家楼E口出，步
+行约500米即到</p>
+    					</div>
+    				</li>
+    				<li>
+    					<i></i>
+    					<div class="lx_fa1">
+    						<em></em>
+    						<p>乘坐机场巴士1线，在大北窑（国贸桥）下
+车，乘坐974、673、9、113路在东大桥下
+车，向北500米即到</p>
+    					</div>
+    				</li>
+    				<li>
+    					<i></i>
+    					<div class="lx_fa1">
+    						<em></em>
+    						<p>乘坐地铁2号线（外环），在朝阳门下车换乘
+地铁6号线（潞城方向），在呼家楼下车
+E（西北）出口，向北步行500米即到</p>
+    					</div>
+    				</li>
+    			</ul>
+    		</div>
+    		<a onclick="openZoosUrl();return false;" href="javascript:void(0);return false;" target="_blank"></a>
+    	</div>
+    </section>
+   <footer>
+		<script src="/commonJs/footer.js"></script>
+		<script src="/swt/swt.js"></script>
+	</footer>
+
+<script type="text/javascript">
+	// 百度地图API功能
+    var map = new BMap.Map('allmap');
+    var poi = new BMap.Point(116.467321,39.932375);
+    map.centerAndZoom(poi, 19);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' + '地址：北京市朝阳区东三环北路55号世茂公园二号楼<br/>电话：400-665-8909<br/>简介：艺美整形是国内人体曲线塑形及面部脂肪移植美容领域中最具实力的专业医疗整形美容机构。' +
+                  '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "艺美医疗美容医院",      //标题
+			width  : 290,             //宽度
+			height : 105,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_SEARCH,   //周边检索
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+	
+</script> 
+</body>
+</html>

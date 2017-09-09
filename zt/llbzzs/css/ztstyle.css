@@ -1,0 +1,39 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+section{ max-width: 640px; width:100%; height:auto; margin: 35px auto 0; overflow-x:hidden; }
+.blank15{ height:15px; clear:both;}
+.zx{ width:60%; height:auto; margin:0 auto; display:block;}
+.zx a{ display:block;}
+
+.llb_dd{ width:88%; margin:5px auto 0px; font-size:.28125rem; color:#300523; line-height:1.6; text-align:center;font-family:"ºÚÌå";}
+.llb_at{ width:100%; height:auto; position:relative; z-index:1;}
+.llb_at2{ width:40%; height:auto; position:absolute; left:8%; top:0; z-index:8;}
+
+.llb_ss{ width:100%; margin:0 auto;}
+.llb_ss li{ width:30%; float:left; margin-left:2.5%; margin-top:4%; display:inline;}
+.llb_ss em{ width:16.3%; float:left; height:1px; display:block;}
+
+.llb_sj{width:94%; margin:0 auto;}
+.llb_sj li{ width:100%;}
+.llb_sj li h2{font-size:.375rem; line-height:1.5; color:#300523; font-weight:bold;font-family:"ºÚÌå";}
+.llb_sj li em{ width:15%; height:3px; background:#300523; display:block;}
+.llb_sj li p{ padding-top:5px;font-size:.28125rem; line-height:1.6; color:#333333; font-family:"ºÚÌå"; text-align:justify;}
+.llb_sj1{ width:45%;}
+.llb_sj2{ width:49%; padding-top:2%; }
+.llb_text{ text-align:right;}
+
+.llb_gl{ width:100%; margin:0 auto;}
+.llb_gl li{ width:28%; float:left; margin-left:4%; display:inline;}
+.llb_gl li span{ width:100%; padding:2% 0px; font-size:.375rem; color:#fff; line-height:1.5; text-align:center; background:#300523; display:block;}
+.llb_gl1{ width:86%; padding:7%; margin-top:8px; border:2px solid #300523;}
+.llb_gl1 p{ font-size:.28125rem; color:#420c30; line-height:1.5; text-align:center;}
+.llb_gl1 em{line-height:1.5; width:100%;height:.40625rem; display:block;}
+
+.anliSlides{min-width: 320px;overflow: hidden;width: 100%;  }
+.anliSlides li {float: left;height: 100%;overflow: hidden;width: 100%; display:inline; }
+.anliSlides li ol{ width:41%; float:left; margin-left:2%; margin-bottom:5px; display:inline; padding:8px 3%; background:#eeeeee;}
+
+.anliSlides2,.zjSlides {min-width: 320px;overflow: hidden;width: 100%;}
+.anliSlides2 li.zjSlides li {float: left;height: 100%;overflow: hidden;width: 100%;}

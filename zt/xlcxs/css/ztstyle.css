@@ -1,0 +1,54 @@
+@charset "gb2312";
+/* CSS Document */
+
+section{ max-width: 640px; width:100%; height:auto; margin: 0px auto; background:#0d0a09; overflow-x:hidden; }
+.blank15{ height:15px; clear:both;}
+.zx{ width:50%; height:auto; margin:0 auto; display:block;}
+.zx1{ width:81%; height:auto; margin:0 auto; display:block;}
+.zx2{ width:86%; height:auto; margin:0 auto; display:block;}
+.zx3{ width:70%; height:auto; margin:0 auto; display:block;}
+
+.zx_dw { height: auto; position: relative; width: 100%;z-index: 1;}
+.zx_dw1 {width: 86%; height: auto; position: absolute; left: 7%;bottom: 5%;z-index: 8;display: block;}
+
+.xh1{ width:96%; margin:0 auto;}
+.xh2{ font-size:.28125rem; color:#ffffff; line-height:1.6; display:block;text-align:justify;}
+.xh2_zx{ width: 77%;height:auto; margin:30px auto 0; display:block;}
+
+.xh3{ width:80%; margin:0 auto;}
+.xh3 li{ font-size:.375rem; line-height: 1.5; color:#fff;}
+.xh3 li em{ font-size:.46875rem; line-height: 1.5; color:#a87a60;}
+
+.xh4{ width:96%; margin:0 auto;}
+.xh4 h2{ font-size:.46875rem; line-height: 1.5;color:#a87a60; padding-bottom:5px;}
+.xh4 p{ font-size:.28125rem; line-height:1.6; color:#fff;text-align:justify;}
+.xh5{ width:96%; margin:0 auto;}
+.xh5 li{ width:49%;}
+.k1{ background:#382726;}
+
+.xh6{ width:100%; margin:0 auto;}
+.xh6 li{ width:22%; float:left; margin-left:5.66%; margin-right:5.66%; display:inline;}
+.xh6 li span{ padding-top:10px; font-size:.28125rem; line-height: 1.5;color:#fff; text-align:center; font-weight:bold; font-family:"ºÚÌå";display:block;}
+.xh6 li em{ width:30%; height:3px; background:#ecce8d; margin-left:30%; margin-bottom:5px; margin-top:5px; display:block;}
+.xh6 li p{ font-size:.21875rem; line-height: 1.5;color:#fff; text-align:center; font-family:"ËÎÌå";}
+
+.xh7{ width:100%; margin:0 auto;}
+.xh7 li{ width:72%; height:auto; margin:0 auto;}
+
+.xh8{ width:96%; margin:0 auto;}
+.xh8 li{ width:96%; float:left; padding:10px 2%; margin-top:15px; border:2px solid #382726; border-radius:1rem;}
+.xh8 li span{ width:30%; float:left; display:block;}
+.xh8 li div{ width:66%; padding-top:3%; float:right; font-family:"ºÚÌå";}
+.xh8 li  h2{ font-size:.5625rem; line-height: 1.6; color:#dcdcdc; font-weight:bold;}
+.xh8 li  p{ font-size:.28125rem;line-height: 1.5; color:#dcdcdc; text-align:justify;}
+
+
+.anliSlides{min-width: 320px;overflow: hidden;width: 96%; margin:0 auto;  }
+.anliSlides li {float: left;height: 100%;overflow: hidden;width: 100%; display:inline; }
+
+
+/*.zt_jj{ width:100%; margin:0 auto; background:#fff;}
+.zt_jj1{ width:98%; margin:0 auto;}
+.zt_jj2{ width:42%; float:right;}
+.zt_jj3{ width:51%; font-size:.28125rem; color:#000000; text-indent:2em; text-align:justify; float:left; margin-left:2%; display:inline;}
+.zt_jj3 em{ color:#e7b443;}*/

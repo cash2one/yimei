@@ -1,0 +1,38 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+section{ max-width: 640px; width:100%; height:auto; margin: 30px auto 0; overflow-x:hidden; }
+.blank15{ height:15px; clear:both;}
+.zx{ width:60%; height:auto; margin:0 auto; display:block;}
+.zx a{ display:block;}
+.fc_tit{width:100%; font-size:.46875rem; line-height:1.8; color:#945400; font-family:"黑体"; text-align:center; font-weight:bold;}
+.fc_tit1{ width:100%; height:5px; position:relative;}
+.fc_tit1 span{ width:100%; height:1px; background:#000000; position:absolute; left:0px; top:2px; display:block;}
+.fc_tit1 em{ width:56%; height:5px; background:#945400; position:absolute; left:22%; top:0; display:block;}
+.fc_dd{ padding-top:8px; margin:0 auto; text-align:center; font-size:.28125rem;line-height:1.5;  color:#945400;font-family:"黑体";}
+.fc_yx{ width:100%; margin:10px auto 0px;}
+.fc_yx li{ width:30%; float:left; margin-left:2.5%; display:inline;}
+
+.fc_at{ width:100%; height:auto; position:relative; z-index:1;}
+.fc_at2{ width:60%; height:auto; position:absolute; left:20%; top:0; z-index:8;}
+
+.fc_cs{ width:40%; float:left; margin-right:4%; margin-left:4%; display:inline;}
+.fc_cs2{ width:48%; padding-top:9%; float:left; font-size:.28125rem;line-height:1.8; font-family:"黑体"; text-align:justify;}
+.fc_cs3{ width:100%;margin:10px auto 0px;}
+.fc_cs3 li{ width:23%; float:left; margin-left:1.6%; display:inline;}
+
+.fc_js{ width:98%; margin:0 auto;}
+.fc_js li{ width:48%; float:left; margin-left:1%; margin-right:1%; display:inline; margin-top:2%; background:#eeeeee;}
+.fc_jst{ width:36%;}
+.fc_js2{ width:60%; margin-left:2%; margin-right:2%;}
+.fc_js2 h2{ widows:100%; padding-bottom:2px; border-bottom:2px solid #a0a0a0; padding-top:5%; font-size:.3125rem; line-height:1.5;color:#945400;  display:block;}
+.fc_js2 p{ width:100%; padding-top:5%; font-size:.21875rem;line-height:1.8; font-family:"宋体";}
+.fc_text{ text-align:right;}
+
+.fc_gl{ width:90%; margin:10px auto 0px;}
+.fc_gl li{ width:93%; padding:3px 0px 3px 7%; margin-top:6px; font-size:.375rem; color:#333333; background:#d4d4d4;}
+.fc_gl li a{color:#333333;}
+
+.anliSlides2,.zjSlides {min-width: 320px;overflow: hidden;width: 100%;}
+.anliSlides2 li.zjSlides li {float: left;height: 100%;overflow: hidden;width: 100%;}

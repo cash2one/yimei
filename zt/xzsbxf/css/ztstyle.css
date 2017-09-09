@@ -1,0 +1,36 @@
+@charset "gb2312";
+/* CSS Document */
+
+section{ max-width: 640px; width:100%; height:auto; margin: 40px auto 0; overflow-x:hidden; }
+.blank15{ height:15px; clear:both;}
+.zx{ width:55%; height:auto; margin:0 auto; display:block;}
+.k1{ width:100%; padding:25px 0px; background:#000000;}
+.al{ width:95%; margin:5px auto 20px;}
+.al1_lf{ width:44%; margin-right:4%;}
+.al1_rg{ width:50%;}
+.al1_rg span{ font-size:.28125rem; line-height:1.8;font-family:"宋体"; color:#d0cccd; display:block;}
+.al1_rg p{ padding-top:8px; font-size:.21875rem; text-indent:2em;line-height:1.6;font-family:"宋体"; color:#d0cccd; text-align:justify;}
+.al1_rg h2{ padding-top:3px;font-size:.28125rem; line-height:1.6;text-indent:1.5em; font-family:"黑体"; color:#fff; display:block;}
+.al2_rg p{ padding-top:10px; font-size:.28125rem; text-indent:2em;line-height:1.8;font-family:"黑体"; color:#333333; text-align:justify;}
+
+.al2 h2{  padding-top:8px; font-size:.28125rem; line-height:1.6;font-family:"黑体"; color:#fff; display:block;}
+.al2 p{ padding-top:3px; font-size:.28125rem; text-indent:2em;line-height:1.6;font-family:"宋体"; color:#fff; text-align:justify;}
+
+.sb{width:90%; margin:5px auto 5px;}
+.sb_lf{ width:44%; }
+.sb_rg{ width:50%; }
+.sb_rg h2{ width:80%; padding-top:10px; font-size:.375rem; line-height:1.8; color:#301101; display:block; border-bottom:1px solid #301101;}
+.sb_rg p{ padding-top:10px; font-size:.28125rem; line-height:1.6; color:#333333; text-align:justify;}
+
+.sb2{ width:100%; margin:0 auto;}
+.sb2 li{ width:40%; float: left; margin-left:6.6%; margin-top:20px; display:inline;}
+
+.al3{ width:100%; margin:0 auto;}
+.al3 li{ width:46%; float:left; margin-left:2%; margin-right:2%; display:inline;}
+
+.k1_al{ width:100%;}
+.k1_al li{ float:left; width:30%; margin-left:2.5%; display:inline;}
+.k1_al2{ width:92%; margin:0 auto;}
+
+.anliSlides2,.zjSlides {min-width: 320px;overflow: hidden;width: 100%;}
+.anliSlides2 li.zjSlides li {float: left;height: 100%;overflow: hidden;width: 100%;}

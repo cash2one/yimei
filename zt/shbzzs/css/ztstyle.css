@@ -1,0 +1,31 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+section{ max-width: 640px; width:100%; height:auto; margin: 35px auto 0; overflow-x:hidden; }
+.blank15{ height:15px; clear:both;}
+.zx{ width:60%; height:auto; margin:0 auto; display:block;}
+.zx a{ display:block;}
+
+.shb1{ width:30%; float:left; margin-right:7%; display:inline;}
+.shb2{ width:54%; float:left; padding-top:12%;}
+.shb2 h2{ font-size:.46875rem; line-height:1.8; color:#301101; text-align:right;}
+.shb2 p{ padding-top:3px; font-size:.25rem; line-height:1.8;letter-spacing: 2; color:#333333; text-align:right;}
+
+.anliSlides{min-width: 320px;overflow: hidden;width: 100%;  }
+.anliSlides li {float: left;height: 100%;overflow: hidden;width: 100%; display:inline; }
+.anliSlides li ol{ width:41%; float:left; margin-left:2%; margin-bottom:5px; display:inline; padding:8px 3%; background:#eeeeee;}
+
+.anliSlides2,.zjSlides {min-width: 320px;overflow: hidden;width: 100%;}
+.anliSlides2 li.zjSlides li {float: left;height: 100%;overflow: hidden;width: 100%;}
+
+.yw{ width:80%; margin:15px auto 0px;}
+.yw li{float: left;}
+.yw_tit{ width:100%;float: left; border-bottom:2px solid #a0a0a0;}
+.yw__xtit{ width:100%; padding-top:6px; font-size:2.0rem; font-weight:bold; color:#301101; }
+.yw1{ width:4%; float:left; margin-right:3%; display:inline;}
+.yw2{ width:75%; float:left;  font-size:.25rem; line-height: 1.5; color:#301101;font-family:"÷ÚÌו"; letter-spacing:2px;} 
+.yw_nr{ width:100%; padding:1px 0px 5px 0px;}
+.yw_nr p{ width:100%; float:left; padding-top:2px; font-size:.25rem; line-height: 1.5; color:#666666;font-family:"ËÎÌו"; }
+.yw_nr span{ width:13%; float:right; font-size:.25rem; color:#340703;font-family:"ËÎÌו";}
+.yw_nr span a{ color:#340703}
